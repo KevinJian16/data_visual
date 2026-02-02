@@ -1,0 +1,31 @@
+# virtual environments
+.venv/
+**/.venv/
+
+# python cache
+__pycache__/
+*.py[cod]
+
+# distribution / packaging
+*.egg-info/
+build
+dist/
+
+# testing
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# macos
+.DS_Store
+
+# vscode
+.vscode/
+
+# idea
+.idea/
+*.iml
+
+# jupyter notebook checkpoints
+.ipynb_checkpoints/
+
