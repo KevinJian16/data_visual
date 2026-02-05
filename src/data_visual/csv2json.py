@@ -3,6 +3,7 @@ import json
 
 
 def csv_to_json(csv_file_path, json_file_path, selected_headers=None):
+    """Convert a CSV file to a JSON file."""
     with open(csv_file_path, encoding="utf-8") as csv_file:
         csv_reader = csv.reader(csv_file)
         header = None

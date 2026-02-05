@@ -55,4 +55,4 @@ wm.title = "World Electricity Access in 2023"
 wm.add("0-90%", cc_pops_1)
 wm.add("90-99.9%", cc_pops_2)
 wm.add(">99.9%", cc_pops_3)
-wm.render_to_file("../../data/world_electricity.svg")
+wm.render_to_file("../../results/world_electricity.svg")

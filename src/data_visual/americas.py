@@ -15,4 +15,4 @@ wm.add(
         "ve": 28500000,
     },
 )
-wm.render_to_file("../../data/americas_population.svg")
+wm.render_to_file("../../results/americas_population.svg")

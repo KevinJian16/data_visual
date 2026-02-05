@@ -11,6 +11,7 @@ filename_3 = "../../data/ShanghaiWeatherHistory.csv"
 def read_temps(
     filename, date_index, high_index, low_index, date_format, strip_br=False
 ):
+    """Read temperature data from a CSV file."""
     with open(filename) as f:
         reader = csv.reader(f)
 

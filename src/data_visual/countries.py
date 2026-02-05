@@ -118,6 +118,7 @@ REGION_NAMES = {
 
 
 def is_region(country_name):
+    """Check if the given country name is a region."""
     return country_name in REGION_NAMES
 
 
